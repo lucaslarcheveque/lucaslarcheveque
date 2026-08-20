@@ -4,7 +4,7 @@
   <img alt="snake gif eating my github contributions graph" src="https://raw.githubusercontent.com/lucaslarcheveque/lucaslarcheveque/output/github-snake.svg" />
 </picture>
 
-**lucas larchevêque** — Zone01 (réseau 42). Go et Java au quotidien, JS vanilla quand un framework serait de trop.
+**lucas larchevêque** — Zone01. Go et Java au quotidien, TypeScript quand un framework serait de trop.
 
 ---
 
