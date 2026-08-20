@@ -1,5 +1,4 @@
-# Salut, je suis Lucas 👋
-
+# Bienvenue sur mon github !
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaslarcheveque/lucaslarcheveque/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucaslarcheveque/lucaslarcheveque/output/github-snake.svg" />
