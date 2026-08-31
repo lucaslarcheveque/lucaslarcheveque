@@ -12,7 +12,7 @@
 
 **Langages**
 
-<img src="https://img.shields.io/badge/Go-8a2410?style=flat&logo=go&logoColor=white" alt="Go" /> <img src="https://img.shields.io/badge/Java-b8420c?style=flat&logo=java&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/TypeScript-d9691f?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Go-8a2410?style=flat&logo=go&logoColor=white" alt="Go" /> <img src="https://img.shields.io/badge/Java-b8420c?style=flat&logo=java&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/TypeScript-d9691f?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/C%23-414f8a?style=flat&logo=csharp&logoColor=white" alt="C#" />
 
 **Frameworks**
 
