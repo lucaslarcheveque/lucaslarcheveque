@@ -26,9 +26,14 @@ jobs:
 
       - name: Slow down snake animation
         run: |
-          for f in dist/*.svg; do
-            perl -pi -e 's/\d+ms/90000ms/g' "$f"
-          done
+          set -euo pipefail
+          find dist -name '*.svg' -exec sed -i -E 's/[0-9]+ms/90000ms/g' {} +
+          echo "durations after edit:"
+          grep -oE '[0-9]+ms' dist/*.svg
+          if grep -qE '[0-9]{1,4}ms' dist/*.svg; then
+            echo "::error::animation duration was not updated, failing so this doesn't go unnoticed"
+            exit 1
+          fi
 
       - name: Push generated files to the output branch
         uses: crazy-max/ghaction-github-pages@v4
