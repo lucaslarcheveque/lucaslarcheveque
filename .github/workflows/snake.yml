@@ -27,7 +27,7 @@ jobs:
       - name: Slow down snake animation slightly
         run: |
           for f in dist/*.svg; do
-            perl -pi -e 's/(\d+)ms linear infinite/int($1*1.15)."ms linear infinite"/e' "$f"
+            perl -pi -e 's/(\d+)ms linear infinite/int($1*1.5)."ms linear infinite"/e' "$f"
           done
 
       - name: Push generated files to the output branch
