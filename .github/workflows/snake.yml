@@ -24,10 +24,10 @@ jobs:
             dist/github-snake.svg?color_snake=%237890b4
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%237890b4
 
-      - name: Slow down snake animation slightly
+      - name: Slow down snake animation
         run: |
           for f in dist/*.svg; do
-            perl -pi -e 's/(\d+)ms linear infinite/int($1*1.5)."ms linear infinite"/e' "$f"
+            perl -pi -e 's/\d+ms linear infinite/60000ms linear infinite/' "$f"
           done
 
       - name: Push generated files to the output branch
