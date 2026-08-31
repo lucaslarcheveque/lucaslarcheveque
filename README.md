@@ -1,6 +1,6 @@
 # Bonjour ! △▲△
 
-**lucas larchevêque** — Zone01 (réseau 42). Go, Java, TypeScript — et tout ce qui tourne dans un conteneur.
+**lucas larchevêque** — Zone01. Go, Java, TypeScript — et tout ce qui tourne dans un conteneur.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaslarcheveque/lucaslarcheveque/output/github-snake-dark.svg" />
